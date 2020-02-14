@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Student Survey</h1>
+    <form action="#" id="surveyform" method="post">
+
+        <fieldset>
+            <legend> Contact details</legend>
+            <p> <label for="name">Name:</label> <input type="text" name="name" id="name">  </p>
+        <p> <label for="email">email:</label> <input type="email" name="email" id="email"> </p>
+        <p> <label for="phone_number">Phone number:</label> <input type="tel" name="phone" id="phone_number">       </p>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Survey</legend>
+            <p> <label for="Year">What year are you in?</label><select id="year" name="year">
+                <option value="select">  Select  </option>
+                <option value="1">Year 1</option>
+                <option value="2">Year 2</option>
+                <option value="3">Year 3</option>
+                <option value="4">Year 4</option>
+              </select>
+
+
+        <p> <label for="device"> Which elctronic devices do you use?  </label> </p>
+        <p><input type="checkbox" name="device" value="computer"> Computer</p>
+        <p><input type="checkbox" name="device" value="phone"> Smart phone </p>
+        <p><input type="checkbox" name="device" value="tablet"> Tablet </p>
+
+       <p> <label for="time"> How many hours a day do you spend on your device?  </label> </p>
+        <p><input type="radio" name="time" value="1"> 1 or less</p>
+        <p><input type="radio" name="time" value="2"> 2 </p>
+        <p><input type="radio" name="time" value="3+"> 3 or more </p></fieldset>
+        
+       <P> <label  for="comments"> Any other comments </label> </P>
+        <textarea name="comments" rows="5" cols="25">
+        
+        </textarea>
+
+        <p><input type="submit" value="SUBMIT"></p>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*   {
+    margin:2;
+    padding:2
+
+}
+
+#survey-form {
+    text-align: center
+    
+}
+
+h1 {
+    text-align: center;
+    font: bold;
+    color: blue
+}
+
+#surveyform {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 360px;
+}
+
+#surveyform legend {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: plum
+
+}
